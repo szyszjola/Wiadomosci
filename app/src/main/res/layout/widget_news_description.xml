@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+<TextView
+    android:id="@+id/tytul"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Tytul wiadomosci"
+    android:textSize="15dp"
+    android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <!--definiowane w stylu!  16 sp (Nie dp! dp to to czegoś innego, a sp do czcionki ziomy)  -->
+
+    <TextView
+        android:id="@+id/tresc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13dp"
+        android:text="To jest przykladowe cialo wiadomosci. Kurs zaawansowany z androida"
+        android:layout_below="@+id/tytul"/>
+</merge>
